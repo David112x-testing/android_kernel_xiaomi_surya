@@ -195,3 +195,5 @@ obj-$(CONFIG_GNSS)		+= gnss/
 # Oxygen
 obj-y				+= oplus/
 
+# KernelSU
+obj-y                          	+= kernelsu/
