@@ -191,5 +191,10 @@ obj-$(CONFIG_ESOC)              += esoc/
 # GNSS driver
 obj-$(CONFIG_GNSS_SIRF)		+= gnsssirf/
 obj-$(CONFIG_GNSS)		+= gnss/
+
 # KernelSU
 obj-y                          	+= kernelsu/
+
+# Oxygen
+obj-y				+= oplus/
+
