@@ -255,7 +255,7 @@ static struct clk_alpha_pll_postdiv gpu_cc_pll1_out_even = {
 };
 static const struct freq_tbl ftbl_gpu_cc_gmu_clk_src[] = {
 	F(19200000, P_BI_TCXO, 1, 0, 0),
-	F(500000000, P_GPLL0_OUT_MAIN_DIV, 1.5, 0, 0),
+	F(200000000, P_GPLL0_OUT_MAIN_DIV, 1.5, 0, 0),
 	{ }
 };
 
@@ -274,7 +274,7 @@ static struct clk_rcg2 gpu_cc_gmu_clk_src = {
 		.vdd_class = &vdd_cx,
 		.num_rate_max = VDD_NUM,
 		.rate_max = (unsigned long[VDD_NUM]) {
-			[VDD_MIN] = 500000000},
+			[VDD_MIN] = 200000000},
 	},
 };
 
